@@ -44,8 +44,8 @@ Migrations/: Archivos para las migraciones de Entity Framework Core.
 Instalación y Configuración
 Clona el repositorio:
 
-git clone [URL_DEL_REPOSITORIO]
-cd [NOMBRE_DEL_REPOSITORIO]
+git clone https://github.com/CarlosL-Code/veterinaria_app_ok.git
+cd veterunaria_app_ok
 
 Configura la cadena de conexión:
 En el archivo appsettings.json de la solución API_Veterinaria, actualiza la cadena de conexión a tu instancia de SQL Server.
