@@ -1,0 +1,205 @@
+/* _content/veterinaria_app_ok/Views/Shared/_Layout.cshtml.rz.scp.css */
+:root[b-idriqywg3q] {
+    --primary: #1e40af;
+    --primary-light: #3b82f6;
+    --primary-dark: #1e3a8a;
+    --accent: #93c5fd;
+    --bg-light: #f4f8fb;
+    --bg-footer: #f8f9fa;
+    --text-main: #222;
+    --text-muted: #6c757d;
+    --border-color: #e5e7eb;
+    --radius: 6px;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --transition: all 0.2s ease-in-out;
+}
+
+html[b-idriqywg3q], body[b-idriqywg3q] {
+    height: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-idriqywg3q] {
+    flex: 1;
+}
+
+/* Navbar */
+a.navbar-brand[b-idriqywg3q] {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: var(--primary);
+    text-align: center;
+    transition: var(--transition);
+}
+
+    a.navbar-brand:hover[b-idriqywg3q],
+    a.navbar-brand:focus[b-idriqywg3q] {
+        color: var(--primary-dark);
+    }
+
+/* Enlaces */
+a[b-idriqywg3q] {
+    color: var(--primary-light);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+    a:hover[b-idriqywg3q],
+    a:focus[b-idriqywg3q] {
+        color: var(--primary-dark);
+        text-decoration: underline;
+    }
+
+/* Botones */
+.btn[b-idriqywg3q],
+.btn-primary[b-idriqywg3q] {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+    .btn:hover[b-idriqywg3q],
+    .btn:focus[b-idriqywg3q] {
+        background: linear-gradient(90deg, var(--primary-dark) 0%, #005fa3 100%);
+        box-shadow: 0 6px 18px rgba(30, 64, 175, 0.2);
+    }
+
+/* Formularios */
+.form-control[b-idriqywg3q] {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    transition: var(--transition);
+}
+
+    .form-control:focus[b-idriqywg3q] {
+        border-color: var(--primary-light);
+        box-shadow: 0 0 0 3px var(--accent);
+        outline: none;
+    }
+
+form[b-idriqywg3q] {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+/* Sidebar */
+.sidebar[b-idriqywg3q] {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 240px;
+    height: calc(100vh - 56px);
+    background: var(--primary-dark);
+    color: #fff;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.08);
+    z-index: 1000;
+}
+
+.sidebar-header[b-idriqywg3q] {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.sidebar-menu[b-idriqywg3q] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .sidebar-menu li[b-idriqywg3q] {
+        margin-bottom: 1rem;
+    }
+
+.btn-sidebar[b-idriqywg3q] {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+    .btn-sidebar:hover[b-idriqywg3q],
+    .btn-sidebar:focus[b-idriqywg3q] {
+        background-color: #fff;
+        color: darkblue;
+    }
+
+/* Contenido principal */
+.main-content[b-idriqywg3q] {
+    margin-left: 260px;
+    padding: 2rem;
+    flex: 1;
+}
+
+/* Footer corregido */
+.footer[b-idriqywg3q] {
+    background: var(--bg-footer);
+    color: var(--text-muted);
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid var(--border-color);
+    margin-top: auto;
+    width: 100%;
+}
+.navbar[b-idriqywg3q] {
+    min-height: 70px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.main-content[b-idriqywg3q] {
+    margin-top: 70px; /* igual a la altura del navbar */
+    margin-left: 260px; /* sidebar ancho */
+    padding: 2rem;
+}
+
+.caja-inicio[b-idriqywg3q] {
+    width: 640px;
+    height: 426px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slider-inicio[b-idriqywg3q] {
+    display: flex;
+    height: 100%;
+   
+}
+
+.img-inicio[b-idriqywg3q] {
+    flex-shrink: 0;
+    width: 640px;
+    height: 426px;
+    object-fit: cover;
+}
+
+
+

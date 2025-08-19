@@ -1,0 +1,61 @@
+﻿@model IEnumerable<veterinaria_app_ok.Models.Atencion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ingreso de atención</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Observaciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mascota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observaciones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mascota.Name)
+            </td>
+                <td>
+                    @item.Usuario?.Email
+                </td>
+
+                <td>
+                    <a class="btn btn-sm btn-primary me-2" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-sm btn-info me-2" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+
+        </tr>
+}
+    </tbody>
+</table>

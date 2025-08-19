@@ -1,0 +1,78 @@
+﻿@model veterinaria_app_ok.Models.Mascota
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar Mascota</h1>
+
+<h4>Mascota</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaNacimiento" class="control-label"></label>
+                <input type="date" asp-for="FechaNacimiento" class="form-control" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Propietario" class="control-label"></label>
+                <input asp-for="Propietario" class="form-control" />
+                <span asp-validation-for="Propietario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Celular" class="control-label"></label>
+                <input asp-for="Celular" class="form-control" />
+                <span asp-validation-for="Celular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoriaId" class="control-label"></label>
+                <select asp-for="CategoriaId" class="form-control" asp-items="ViewBag.CategoriaId"></select>
+                <span asp-validation-for="CategoriaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Avatar actual:</label><br />
+                @if (!string.IsNullOrEmpty(Model.AvatarPath))
+                {
+                    <img src="@Model.AvatarPath" alt="avatar" width="100" height="100" class="rounded-circle mb-2" />
+                }
+                else
+                {
+                    <span class="text-muted">Sin imagen</span>
+                }
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Cambiar foto de la mascota</label>
+                <input type="file" name="AvatarFile" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">
+                    Salir
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

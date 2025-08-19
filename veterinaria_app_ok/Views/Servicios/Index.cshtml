@@ -1,0 +1,54 @@
+﻿@model IEnumerable<veterinaria_app_ok.Models.Servicio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Servicios</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo Servicio</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+                <td>
+                    <a class="btn btn-sm btn-primary me-2" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-sm btn-info me-2" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+
+        </tr>
+}
+    </tbody>
+</table>

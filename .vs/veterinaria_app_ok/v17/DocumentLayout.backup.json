@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{117DAAAA-1583-48DF-B2E9-2F0042FA2111}|veterinaria_app_ok\\veterinaria_app_ok.csproj|c:\\users\\carlo\\onedrive\\documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\veterinaria_app_ok\\veterinaria_app_ok.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{117DAAAA-1583-48DF-B2E9-2F0042FA2111}|veterinaria_app_ok\\veterinaria_app_ok.csproj|solutionrelative:veterinaria_app_ok\\veterinaria_app_ok.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|c:\\users\\carlo\\onedrive\\documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\api_veterinaria\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|solutionrelative:api_veterinaria\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|c:\\users\\carlo\\onedrive\\documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\api_veterinaria\\entities\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|solutionrelative:api_veterinaria\\entities\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|c:\\users\\carlo\\onedrive\\documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\api_veterinaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|solutionrelative:api_veterinaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|c:\\users\\carlo\\onedrive\\documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\api_veterinaria\\services\\atencionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|solutionrelative:api_veterinaria\\services\\atencionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|c:\\users\\carlo\\onedrive\\documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\api_veterinaria\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33575105-A256-49E0-AF07-31C0C0566642}|API_Veterinaria\\API_Veterinaria.csproj|solutionrelative:api_veterinaria\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "veterinaria_app_ok",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\veterinaria_app_ok\\veterinaria_app_ok.csproj",
+              "RelativeDocumentMoniker": "veterinaria_app_ok\\veterinaria_app_ok.csproj",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\veterinaria_app_ok\\veterinaria_app_ok.csproj",
+              "RelativeToolTip": "veterinaria_app_ok\\veterinaria_app_ok.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T18:46:32.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AtencionController.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Controllers\\AtencionController.cs",
+              "RelativeDocumentMoniker": "API_Veterinaria\\Controllers\\AtencionController.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Controllers\\AtencionController.cs",
+              "RelativeToolTip": "API_Veterinaria\\Controllers\\AtencionController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:08:15.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Program.cs",
+              "RelativeDocumentMoniker": "API_Veterinaria\\Program.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Program.cs",
+              "RelativeToolTip": "API_Veterinaria\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:06:27.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "API_Veterinaria\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Entities\\Categoria.cs",
+              "RelativeToolTip": "API_Veterinaria\\Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:06:07.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Entities\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "API_Veterinaria\\Entities\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Entities\\ApplicationDbContext.cs",
+              "RelativeToolTip": "API_Veterinaria\\Entities\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:03:42.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AtencionService.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Services\\AtencionService.cs",
+              "RelativeDocumentMoniker": "API_Veterinaria\\Services\\AtencionService.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\.net\\veterinaria_app_ok\\veterinaria_app_ok\\API_Veterinaria\\Services\\AtencionService.cs",
+              "RelativeToolTip": "API_Veterinaria\\Services\\AtencionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:59:33.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

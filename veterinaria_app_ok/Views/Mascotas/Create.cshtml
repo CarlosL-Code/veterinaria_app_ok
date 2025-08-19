@@ -1,0 +1,72 @@
+﻿@model veterinaria_app_ok.Models.Mascota
+
+@{
+    ViewData["Title"] = "Crear Mascota";
+}
+
+<h1>Crear Mascota</h1>
+
+<h4>Mascota</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6 col-lg-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="FechaNacimiento" class="form-label"></label>
+                <input type="date" asp-for="FechaNacimiento" class="form-control" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Propietario" class="form-label"></label>
+                <input asp-for="Propietario" class="form-control" />
+                <span asp-validation-for="Propietario" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Celular" class="form-label"></label>
+                <input asp-for="Celular" class="form-control" />
+                <span asp-validation-for="Celular" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="CategoriaId" class="form-label"></label>
+                <select asp-for="CategoriaId" class="form-select" asp-items="ViewBag.CategoriaId"></select>
+                <span asp-validation-for="CategoriaId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Foto de la mascota</label>
+                <input type="file" name="AvatarFile" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <button  type="submit" class="btn btn-primary">Crear</button>
+                <a onclick="mostrarConfirmacion()" asp-action="Index" class="btn btn-secondary ms-2">Salir</a>
+            </div>
+            <script src="/js/script.js"></script>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
